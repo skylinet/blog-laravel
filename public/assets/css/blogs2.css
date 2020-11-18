@@ -9,3 +9,8 @@
 .section-title p{
   max-width: -webkit-fill-available !important;
 }
+
+.single-repair-box-modify {
+  /* padding: 28px 48px 58px 40px !important; */
+  min-height:291px;
+}

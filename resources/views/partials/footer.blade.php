@@ -4,34 +4,32 @@
       <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="single-footer-widget">
           <div class="logo">
-            <a href="#"><img src="assets/img/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="{{ asset('public/assets/image/logo-asc.png') }}" style="width:155px;" alt="logo"></a>
           </div>
-          <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+          <p>We can provide multi-skill staff so that you just mainty focus on your mission-critical issues</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 col-sm-6">
-        <div class="single-footer-widget pl-5">
-          <h3>Company</h3>
-          <ul class="list">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Our Pricing</a></li>
-            <li><a href="#">Latest News</a></li>
-          </ul>
+        <div class="about-image">
+            <img src="{{ asset('public/assets/image/qrcode_asc.jpg') }}" style="width:200px;" class"width-150px">
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="single-footer-widget">
-          <h3>Support</h3>
+          <h3>Address</h3>
           <ul class="list">
-            <li><a href="#">FAQ's</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms & Condition</a></li>
-            <li><a href="#">Community</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+              <li><a href="#">-IT Outsourcing</a></li>
+              <li><a href="#">-Non IT Outsourcing</a></li>
+              <li><a href="#">-Permanent Recruitment</a></li>
+              <li><a href="#">-Software Development</a></li>
+              <li><a href="#">-IPayroll Outsourcing</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -39,18 +37,19 @@
       <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="single-footer-widget">
           <h3>Address</h3>
-
           <ul class="footer-contact-info">
-            <li><i data-feather="map-pin"></i> 27 Division St, New York, NY 10002, USA</li>
-            <li><i data-feather="mail"></i> Email: <a href="#">startp@gmail.com</a></li>
-            <li><i data-feather="phone-call"></i> Phone: <a href="#">+ (321) 984 754</a></li>
+            <li><i data-feather="map-pin"></i> No.18.25th Floor.Bangkok Insurance Building.South Sathon Road.Thung Mahamek.Sathon.Bangkok 10120</li>
+            <li><i data-feather="mail"></i><a href="#">Email:recru@grpasc.com</a></li>
+            <li><a href="#">Email:radmin@grpasc.com</a></li>
+            <li><i data-feather="phone-call"></i> Phone: <a href="#">(+662)679-1940-3</a></li>
+            <li><a href="#">Phone:(+662)677-4072-3</a></li>
           </ul>
-          <ul class="social-links">
+          {{-- <ul class="social-links">
             <li><a href="#" class="facebook"><i data-feather="facebook"></i></a></li>
             <li><a href="#" class="twitter"><i data-feather="twitter"></i></a></li>
             <li><a href="#" class="instagram"><i data-feather="instagram"></i></a></li>
             <li><a href="#" class="linkedin"><i data-feather="linkedin"></i></a></li>
-          </ul>
+          </ul> --}}
         </div>
       </div>
 
@@ -61,8 +60,5 @@
       </div>
     </div>
   </div>
-
-  <img src="assets/img/map.png" class="map" alt="map">
-  <div class="shape1"><img src="assets/img/shape1.png" alt="shape"></div>
-  <div class="shape8 rotateme"><img src="assets/img/shape2.svg" alt="shape"></div>
+  
 </footer>

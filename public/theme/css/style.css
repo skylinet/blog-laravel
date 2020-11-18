@@ -7948,8 +7948,13 @@ Repair Why Choose Us CSS
 }
 
 .repair-why-choose-us .section-title p {
-  color: #ffffff;
-  opacity: .95;
+color: #000000;
+opacity: .95;
+}
+
+
+.width-150px {
+  width: 150px;
 }
 
 .repair-why-choose-us::before {
