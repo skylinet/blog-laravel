@@ -22,4 +22,8 @@ class BlogController extends BaseController
     function onLoadTest() {
       return view('frontend.test');
     }
+
+    function index(){
+      return view('frontend.softwaredev');
+    }
 }

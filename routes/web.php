@@ -30,3 +30,5 @@ Route::get('/hello', function () {
 Route::get('/user', [BlogController::class, 'onLoadPage']);
 
 Route::get('/blogs', [BlogController::class, 'onLoadBlogs']);
+
+Route::get('/welcome',[BlogController::class,'index']);
